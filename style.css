@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+.preloader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+}
+
+.logo {    
+    padding-top: 10vh;
+    margin: 0 auto;
+    width: 28vw;
+    transition: transform 1s, opacity 2s ease;    
+    opacity: 0;
+    transform: scale(.95);
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+}
+
+
+
+.item-1 
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    transition: 1.5s ease;
+    z-index: 9998;
+    background-image: url(bg-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.item-1 span
+{
+    color: silver;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.item-2
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    z-index: 9997;
+    transition: 1.5s;
+}
+
+
+.section-mine {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mine-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.h1-test {
+    margin: 20px;
+    text-align: center;
+}
